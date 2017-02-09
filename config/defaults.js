@@ -13,9 +13,9 @@ define([], function() {
         //http://developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
         "proxyurl": "",
         //UI specific parameters
-        "title": "Summary Viewer",
+        "title": "Western North Carolina Fires 2016",
         "logo": "",
-        "color": "#80ab00",
+        "color": "#374260",
         //Counter specific parameters
         "summaryLayer":{
             "id": "",
