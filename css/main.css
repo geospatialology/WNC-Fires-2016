@@ -4,13 +4,13 @@ html, body {
 	height: 100%;
 	width: 100%;
 	/*min-width: 980px;*/
-	font-family: HelveticaNeue;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Fonts */
 
 @font-face {
-	font-family: 'HelveticaNeue';
+	font-family: 'Montserrat', sans-serif;
 	src: url('../fonts/helveticaneue.eot');
 	src: url('../fonts/helveticaneue.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue.woff') format('woff'), url('../fonts/helveticaneue.ttf') format('truetype'), url('../fonts/helveticaneue.svg#HelveticaNeue') format('svg');
 	font-weight: normal;
@@ -18,7 +18,7 @@ html, body {
 }
 
 @font-face {
-	font-family: 'HelveticaNeueUltraLight';
+	font-family: 'Montserrat', sans-serif;
 	src: url('../fonts/helveticaneueultralight.eot');
 	src: url('../fonts/helveticaneueultralight.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneueultralight.woff') format('woff'), url('../fonts/helveticaneueultralight.ttf') format('truetype'), url('../fonts/helveticaneueultralight.svg#HelveticaNeueUltraLight') format('svg');
 	font-weight: normal;
@@ -46,7 +46,7 @@ html, body {
 	width: 24px;
 	height: 24px;
 	font-size: 16px;
-	font-family: verdana, helvetica;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	line-height: 24px;
 	-webkit-user-select: none;
@@ -142,7 +142,7 @@ html, body {
 	left: 40px;
 	top: 10px;
 	color: #ffffff;
-	font-family: HelveticaNeueUltraLight;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	line-height: 50px;
@@ -193,7 +193,7 @@ html, body {
    	border: none;
    	border-radius: 0;
    	height: 30px;
-   	font-family: Arial;
+   	font-family: 'Montserrat', sans-serif;
    -webkit-appearance: none;
 }
 
@@ -201,12 +201,12 @@ option:checked {
 	color: #ffffff;
 	height: 30px;
 	line-height: 30px;
-	font-family: Arial;
+	font-family: 'Montserrat', sans-serif;
 }
 
 option {
 	color: #000000;
-	font-family: Arial;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .panelBottom {
@@ -267,7 +267,7 @@ option {
 	width: 219px;
 	height: 15px;
 	font-size: 14px;
-	font-family: HelveticaNeueUltraLight;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	line-height: 15px;
 	letter-spacing: 1px;
@@ -292,7 +292,7 @@ option {
 	width: 219px;
 	height: 15px;
 	font-size: 11px;
-	font-family: HelveticaNeueUltraLight;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	line-height: 15px;
 	letter-spacing: 1px;
@@ -311,7 +311,7 @@ option {
 	height: 100px;
 	margin-left: -400px;
 	overflow: hidden;
-	font-family: HelveticaNeue;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 20px;
 	line-height: 24px;
@@ -353,7 +353,7 @@ option {
 	right: 10px;
 	width: 140px;
 	height: 50px;
-	font-family: HelveticaNeueUltraLight;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 14px;
 	padding: 0px;
@@ -368,7 +368,7 @@ option {
 	display: block;
 	width: 140px;
 	height: 50px;
-	font-family: HelveticaNeue;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	line-height: 50px;
 	cursor: pointer;
@@ -379,7 +379,7 @@ option {
 	display: block;
 	width: 140px;
 	height: 350px;
-	font-family: HelveticaNeue;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	cursor: pointer;
 	overflow-y: auto;
