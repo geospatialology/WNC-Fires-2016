@@ -5,7 +5,7 @@ define([], function() {
     //and url parameters.
     var defaults = {
         "appid": "",
-        "webmap": "55f15224d4da4b4e98504a4ff3a69119", 
+        "webmap": "c346711ae7ac4b7dbf4bb5eec33e67b8", 
         "oauthappid": null, //"AFTKRmv16wj14N3z",
         //Group templates must support a group url parameter. This will contain the id of the group. 
         //group: "",
@@ -22,11 +22,11 @@ define([], function() {
             "fields":[
                 {
                     "id": "filterField",
-                    "fields": [""]
+                    "fields": ["incidentna"]
                 },
                 {
                     "id": "sumFields",
-                    "fields": []
+                    "fields": ["acres"]
                 },
                 {
                     "id": "avgFields",
@@ -42,7 +42,7 @@ define([], function() {
                 }
             ]
         },
-        "cluster": true,
+        "cluster": false,
         "hideCount": false,
         "hideSummaryType": false,
         "bingmapskey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
